@@ -1,0 +1,62 @@
+[
+    {
+       "id": 1,
+      "pregunta": "¿Cuál será el resultado de la siguiente expresión?",
+      "codigo": "typeof null;",
+      "opciones": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'string'"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuál es la salida de este código?",
+      "codigo": "let x = 10;\nfunction foo() {\n  console.log(x);\n  let x = 5;\n}\nfoo();",
+      "opciones": [
+        "'10'",
+        "'undefined'",
+        "'5'",
+        "Esto generará un error."
+      ],
+      "respuestaCorrecta": 1
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué método se utiliza para agregar un elemento al final de un arreglo en JavaScript?",
+      "codigo": "",
+      "opciones": [
+        "'append()'",
+        "'push()'",
+        "'addToEnd()'",
+        "'insert()'"
+      ],
+      "respuestaCorrecta": 1
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cuál es el resultado de esta expresión?",
+      "codigo": "5 + '5';",
+      "opciones": [
+        "'10'",
+        "'55'",
+        "'6'",
+        "'Error'"
+      ],
+      "respuestaCorrecta": 1
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Cuál será el valor de `result` después de la ejecución?",
+      "codigo": "let result = (function(x) {\n  delete x;\n  return x;\n})(0);",
+      "opciones": [
+        "'0'",
+        "'undefined'",
+        "'null'",
+        "Esto generará un error."
+      ],
+      "respuestaCorrecta": 0
+    }
+  ]
