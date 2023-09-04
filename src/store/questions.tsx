@@ -13,12 +13,15 @@ interface State {
   pendentQuestions: number;
 }
 
+const API_URL = import.meta.env.PROD ? 'http://sherkan-craven-teeth.surge.sh' : 'http://localhost:5173/'
+
 export const useQuestionsStore = create<State>((set, get) => {
   return {
     questions: [],
     currentQuestion: 0,
     fetchQuestion: async (limit: number) => {
-      const res = await fetch('http://localhost:5173/data.json');
+      console.log(API_URL);
+      const res = await fetch(`${API_URL}/data.json`);
       const json = await res.json();
       console.log(json);
       const questions = json.sort(() => Math.random() - 0.5).slice(0, limit);
