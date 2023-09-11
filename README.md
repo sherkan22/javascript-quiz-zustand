@@ -28,3 +28,4 @@ If you are developing a production application, we recommend updating the config
 
 
 Web: http://sherkan-craven-teeth.surge.sh/
+![image](https://github.com/sherkan22/javascript-quiz-zustand/assets/95509308/041892ce-bad1-4195-a538-1f3acfea1d34)
